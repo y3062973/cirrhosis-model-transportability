@@ -1,0 +1,64 @@
+# ---------------------------------------------------------------- credentials
+.env
+.env.*
+!.env.example
+credentials/
+secrets/
+*.key
+*.pem
+*.ppk
+id_rsa*
+id_ed25519*
+
+# ---------------------------------------------------------------- restricted data
+# Patient-level or derived stay-level data must NEVER be committed.
+data/
+raw/
+derived/
+extracts/
+dumps/
+outputs/private/
+*.sql.gz
+*.dump
+*.backup
+*.bak
+*.db
+*.sqlite
+*.sqlite3
+*.parquet
+*.feather
+*.h5
+*.rds
+*.sas7bdat
+*.dta
+
+# Any CSV/XLSX holding rows. Aggregate metadata lives in metadata/ and is allowlisted.
+*.csv
+*.xlsx
+*.xls
+!metadata/model_coefficients.csv
+!metadata/predictor_definitions.csv
+!metadata/phenotype_codes.csv
+!metadata/release_manifest_public.json
+
+# ---------------------------------------------------------------- generated
+outputs/
+logs/
+*.log
+figures/*.png
+figures/*.pdf
+tables/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+Thumbs.db
+
+# ---------------------------------------------------------------- local paths
+# The author's local working directories. These must not appear in the release.
+*.pre_beta_fix_*
+/SUBMISSION_*/
+/01_transportability/

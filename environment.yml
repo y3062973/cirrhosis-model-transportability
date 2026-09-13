@@ -1,0 +1,17 @@
+name: project1-cirrhosis-transportability
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.14
+  - pip
+  - pip:
+      - numpy=2.4.4
+      - pandas=2.3.3
+      - scipy=1.17.1
+      - scikit-learn=1.8.0
+      - statsmodels=0.14.6
+      - psycopg2-binary=2.9.12
+      - matplotlib=3.10.9
+      - openpyxl=3.1.5
+      - pypdf=6.17.0

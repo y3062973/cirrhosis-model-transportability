@@ -1,0 +1,41 @@
+LICENSE PENDING -- AUTHOR DECISION REQUIRED
+==========================================
+
+This repository does NOT yet carry an open-source licence, and none has been chosen
+on the authors' behalf.
+
+WHY THIS FILE EXISTS
+--------------------
+Without a licence, the default position under copyright law is that all rights are
+reserved: members of the public may read the code but have no legal permission to
+reuse, modify or redistribute it, even though the repository is publicly visible. A
+public repository without a licence is therefore not open source, whatever the
+authors' intentions.
+
+WHAT TO DO BEFORE PUBLIC RELEASE
+--------------------------------
+1. The authors choose a licence.
+2. Replace this file with the chosen licence text, named LICENSE (or LICENSE.md).
+3. Record the choice in the manuscript's Code availability statement if it names one.
+
+RECOMMENDED OPTION
+------------------
+MIT License. It is short, permissive, widely understood, and compatible with the
+expectations of the prediction-modelling and clinical-informatics communities. It
+permits reuse with attribution and limits the authors' liability.
+
+Apache License 2.0 is a reasonable alternative if the authors want an explicit patent
+grant. GPL-3.0 would require derivative works to remain open, which is usually
+undesirable for research code that others may wish to embed.
+
+NOTE ON SCOPE
+-------------
+A software licence covers the CODE. It does not, and cannot, grant rights over the
+source data. MIMIC-IV, eICU-CRD and nwICU are third-party credentialed databases and
+remain governed by their own data-use agreements; no data are included in this
+repository. See DATA_ACCESS.md.
+
+ACTION REQUIRED: AUTHOR APPROVAL
+--------------------------------
+Do not replace this file until the corresponding author has approved a specific
+licence. The code release is otherwise complete and ready for private review.

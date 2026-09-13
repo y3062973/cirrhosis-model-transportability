@@ -1,0 +1,72 @@
+# Citation metadata for this repository (Citation File Format 1.2.0).
+#
+# Validated against the CFF 1.2.0 JSON schema. Only four top-level keys are required
+# (cff-version, message, title, authors); everything else below is optional.
+#
+# Four keys are DELIBERATELY OMITTED rather than filled with a placeholder, because a
+# placeholder here is either schema-invalid or -- worse -- silently accepted as if it
+# were true, and then propagates into BibTeX/APA/Zenodo metadata as a dead link or a
+# DOI that does not resolve:
+#
+#   license:         must be an SPDX identifier from the CFF 1.2.0 enumeration. A
+#                    free-text value such as "proprietary" or "LicenseRef-..." is
+#                    REJECTED by the schema; there is no escape hatch in CFF 1.2.0.
+#                    The authors have not yet chosen a licence (see LICENSE_PENDING.txt),
+#                    so the key is omitted. Add `license: MIT` (or the chosen SPDX id)
+#                    once the licence is settled.
+#   date-released:   must match ^[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|[12][0-9]|3[01])$.
+#                    Add it only with the real release date.
+#   repository-code: the real https:// URL of the public source repository. Add it once
+#                    the repository has been created.
+#   identifiers:     the real Zenodo DOI, as a BARE value of the form
+#                    10.5281/zenodo.NNNNNNN -- no https://doi.org/ prefix. Add it only
+#                    after Zenodo has issued the DOI for the archived release. A DOI is
+#                    not invented here.
+#
+# When the DOI exists, the block to add back is:
+#
+#   identifiers:
+#     - type: doi
+#       value: 10.5281/zenodo.<NNNNNNN>
+#       description: "Zenodo archive of version 1.1.0"
+#
+cff-version: 1.2.0
+message: "If you use this code, please cite it using the metadata from this file."
+title: "Transportability of a cirrhosis mortality model across health systems: analysis code and reproducibility materials"
+version: "1.1.0"
+type: software
+authors:
+  - family-names: "Li"
+    given-names: "Jinlong"
+  - family-names: "Lei"
+    given-names: "Qiuxiang"
+  - family-names: "Chen"
+    given-names: "Yanan"
+  - family-names: "Wang"
+    given-names: "Peixian"
+  - family-names: "Zhang"
+    given-names: "Qi"
+  - family-names: "Fan"
+    given-names: "Huiyang"
+  - family-names: "Wang"
+    given-names: "Hezhao"
+  - family-names: "Wang"
+    given-names: "Jitao"
+  - family-names: "Liu"
+    given-names: "Dengxiang"
+  - family-names: "Qiao"
+    given-names: "Yuhua"
+abstract: >-
+  Analysis code and non-restricted reproducibility materials for a study of the
+  transportability of a cirrhosis mortality prediction model between health systems.
+  The repository contains no patient data; MIMIC-IV, eICU-CRD and nwICU must be
+  obtained independently under their own access agreements.
+keywords:
+  - cirrhosis
+  - critical care
+  - external validation
+  - calibration
+  - model transportability
+  - prediction model
+  - MIMIC-IV
+  - eICU-CRD
